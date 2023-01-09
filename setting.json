@@ -1,108 +1,51 @@
 {
-  "editor.fontFamily": "Fira Code Retina",
-  "editor.wordWrap": "on",
-  "editor.lineHeight": 28,
-  "editor.letterSpacing": 0.8,
-  "files.trimTrailingWhitespace": true,
-  "editor.cursorWidth": 3,
-  "editor.cursorBlinking": "solid",
-  "explorer.confirmDelete": false,
-  "liveServer.settings.donotShowInfoMsg": true,
-  "workbench.colorCustomizations": {
-    "sideBar.background": "#282a39",
-    "editor.background": "#282a39",
-    "terminal.background": "#282a39",
-    "panel.background": "#282a39",
-    "activityBar.background": "#282a39",
-    "tab.activeBorderTop": "#ffb86c",
-    "panelTitle.activeBorder": "#ffb86c"
-  },
-  "emmet.includeLanguages": {
-    "javascript": "javascriptreact",
-    "vue-html": "html"
-  },
-  "emmet.showSuggestionsAsSnippets": true,
-  "emmet.triggerExpansionOnTab": true,
-  "editor.tabSize": 2,
-  "editor.formatOnSave": true,
-  "[javascript]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "javascript.updateImportsOnFileMove.enabled": "always",
-  "gitlens.advanced.messages": {
-    "suppressLineUncommittedWarning": true
-  },
-  "terminal.integrated.fontSize": 15,
-  "terminal.integrated.rendererType": "dom",
-  "editor.fontSize": 21,
-  "debug.console.fontSize": 14,
-  "explorer.confirmDragAndDrop": false,
-  "files.autoSaveDelay": 5000,
-  "highlight-matching-tag.highlightFromContent": true,
-  "highlight-matching-tag.highlightSelfClosing": true,
-  "editor.renderLineHighlight": "none",
-  "editor.fontLigatures": true,
-  "editor.tokenColorCustomizations": {
-    "[Dracula]": {
-      "textMateRules": [
-        {
-          "scope": "entity.name.function",
-          "settings": {
-            "foreground": "#ffb86c",
-            "fontStyle": "bold"
-          }
-        },
-        {
-          "scope": "entity.other.attribute-name",
-          "settings": {
-            "foreground": "#00FF68",
-            "fontStyle": ""
-          }
-        },
-        {
-          "scope": "string",
-          "settings": {
-            "foreground": "#FFE887"
-          }
-        },
-        {
-          "scope": "punctuation.definition.string.begin",
-          "settings": {
-            "foreground": "#FFE887"
-          }
-        },
-        {
-          "scope": "punctuation.definition.string.end",
-          "settings": {
-            "foreground": "#FFE887"
-          }
-        },
-        {
-          "scope": "string.unquoted",
-          "settings": {
-            "foreground": "#00FF68",
-            "fontStyle": ""
-          }
-        }
-      ]
-    }
-  },
-  "autoimport.filesToScan": "*/.{js,ts,tsx}",
-  "editor.suggestSelection": "first",
-  "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
-  "tabnine.experimentalAutoImports": true,
-  "editor.scrollbar.horizontalScrollbarSize": 15,
   "workbench.colorTheme": "Evondev Dracula Normal Constrast",
-  "editor.cursorSmoothCaretAnimation": true,
+  "editor.fontFamily": "SF Mono",
+  "editor.fontLigatures": true,
+  "editor.wordWrap": "on",
+  "editor.lineHeight": 30,
+  "editor.letterSpacing": 0.8,
+  "editor.renderLineHighlight": "none",
+  "editor.fontSize": 21,
+  "editor.formatOnSave": true,
+  "tabnine.experimentalAutoImports": true,
   "workbench.iconTheme": "material-icon-theme",
-  "bracket-pair-colorizer-2.depreciation-notice": false,
+  "terminal.integrated.fontFamily": "MesloLGL NF",
+  "terminal.integrated.fontSize": 15,
+  "terminal.integrated.defaultProfile.windows": "PowerShell",
+  "liveServer.settings.donotShowInfoMsg": true,
   "vscode_custom_css.imports": [
-    "file:///C:/Users/Huy Developer/Documents/style.css"
+    "file:///C:/Users/Administrator/Documents/style.css"
   ],
-  "github.copilot.enable": {
-    "*": true,
-    "yaml": false,
-    "plaintext": false,
-    "markdown": false
+  "editor.cursorSmoothCaretAnimation": true,
+  "editor.suggest.preview": true, 
+  // "javascript.inlayHints.parameterNames.enabled": "all",
+  // "typescript.inlayHints.parameterNames.enabled": "all",
+  "[html]": {
+    "editor.matchBrackets": "never"
+  },
+  "[css]": {
+    "editor.matchBrackets": "never"
+  },
+  "editor.guides.bracketPairs": true,
+  "editor.bracketPairColorization.enabled": true,
+  "[Evondev Dracula Normal Constrast]": {
+    "textMateRules": [
+      {
+        "scope": [
+          "entity.other.attribute-name.js",
+          "entity.other.attribute-name.jsx",
+          "entity.other.attribute-name.ts",
+          "entity.other.attribute-name.tsx",
+          "entity.other.attribute-name.html",
+          "entity.other.attribute-name.pug",
+          "entity.other.attribute-name.php"
+
+        ],
+        "settings": {
+          "foreground": "#20e4b2"
+        }
+      }
+    ]
   }
 }
